@@ -1,0 +1,6 @@
+{
+    "programmer": "USBtinyISP",
+    "board": "adafruit:avr:trinket3",
+    "sketch": "main\\main.ino",
+    "port": "COM1"
+}

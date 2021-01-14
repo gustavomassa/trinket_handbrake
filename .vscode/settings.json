@@ -1,0 +1,12 @@
+{
+    "arduino.path": "H:\\Arduino",
+    "arduino.additionalUrls": [
+        "https://adafruit.github.io/arduino-board-index/package_adafruit_index.json",
+    ],
+    "arduino.logLevel": "info",
+    "arduino.enableUSBDetection": true,
+    "arduino.defaultBaudRate": 115200,
+    "C_Cpp.default.includePath": [
+        "H:\\Arduino\\libraries\\TrinketKeyboard\\"
+    ]
+}

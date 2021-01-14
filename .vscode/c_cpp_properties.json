@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\Gustavo Massaneiro\\Documents\\Arduino\\libraries\\**",
+                "H:\\Arduino\\libraries\\**",
+                "H:\\Arduino\\hardware\\arduino\\avr\\**",
+                "${env:LOCALAPPDATA}\\Arduino15\\packages\\adafruit\\hardware\\avr\\**"
+            ],
+            "forcedInclude": [],
+            "defines": [
+                //"ARDUINO=100",
+                "USBCON"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "compilerPath": "H:/VisualStudio/VS2019/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
