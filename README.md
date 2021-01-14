@@ -10,6 +10,11 @@
 - hardware folder is the Arduino's hardware folder
 - libraries folder is the Arduino's libraries folder
 
+### Board config
+- Board: Adafruit Trinket (ATtiny85 @ 8MHZ)(Adafruit AVR Boards)
+- Programmer: USBtinyISP
+- Low speed USB is only able to accept data packets 8 bytes in length or less
+
 ### TODO
 - Add a complete gamepad structure on the hid report descriptor, so the games can recognized the gamepad on the settings
 
@@ -31,7 +36,5 @@
 - [http://vusb.wikidot.com/driver-api](http://vusb.wikidot.com/driver-api)
 - [https://www.usb.org/sites/default/files/hid1_11.pd](https://www.usb.org/sites/default/files/hid1_11.pdf)
 
-### Board config
-- Board: Adafruit Trinket (ATtiny85 @ 8MHZ)(Adafruit AVR Boards)
-- Programmer: USBtinyISP
-- Low speed USB is only able to accept data packets 8 bytes in length or less
+### DIView
+- DIView is the software used for testing the USB data and calibration [https://heusinkveld.com/download-diview/?q=%2Fdownload-diview%2F&v=19d3326f3137](https://heusinkveld.com/download-diview/?q=%2Fdownload-diview%2F&v=19d3326f3137)
