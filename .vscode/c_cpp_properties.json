@@ -1,22 +1,59 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "PlatformIO",
             "includePath": [
-                "C:\\Users\\Gustavo Massaneiro\\Documents\\Arduino\\libraries\\**",
-                "H:\\Arduino\\libraries\\**",
-                "H:\\Arduino\\hardware\\arduino\\avr\\**",
-                "${env:LOCALAPPDATA}\\Arduino15\\packages\\adafruit\\hardware\\avr\\**"
+                "h:/Projects/trinket_handbrake/include",
+                "h:/Projects/trinket_handbrake/src",
+                "h:/Projects/trinket_handbrake/lib/TrinketJoystick",
+                "C:/Users/Gustavo Massaneiro/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "C:/Users/Gustavo Massaneiro/.platformio/packages/framework-arduino-avr/variants/trinket_tiny8",
+                "C:/Users/Gustavo Massaneiro/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "C:/Users/Gustavo Massaneiro/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "C:/Users/Gustavo Massaneiro/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "C:/Users/Gustavo Massaneiro/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "C:/Users/Gustavo Massaneiro/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "C:/Users/Gustavo Massaneiro/.platformio/packages/tool-unity",
+                ""
             ],
-            "forcedInclude": [],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "h:/Projects/trinket_handbrake/include",
+                    "h:/Projects/trinket_handbrake/src",
+                    "h:/Projects/trinket_handbrake/lib/TrinketJoystick",
+                    "C:/Users/Gustavo Massaneiro/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "C:/Users/Gustavo Massaneiro/.platformio/packages/framework-arduino-avr/variants/trinket_tiny8",
+                    "C:/Users/Gustavo Massaneiro/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "C:/Users/Gustavo Massaneiro/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "C:/Users/Gustavo Massaneiro/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "C:/Users/Gustavo Massaneiro/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "C:/Users/Gustavo Massaneiro/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "C:/Users/Gustavo Massaneiro/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
             "defines": [
-                //"ARDUINO=100",
-                "USBCON"
+                "PLATFORMIO=50004",
+                "ARDUINO_AVR_TRINKET3",
+                "F_CPU=8000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATtiny85__",
+                ""
             ],
-            "intelliSenseMode": "msvc-x64",
-            "compilerPath": "H:/VisualStudio/VS2019/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/cl.exe",
-            "cStandard": "c17",
-            "cppStandard": "c++17"
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/Gustavo Massaneiro/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=attiny85",
+                ""
+            ]
         }
     ],
     "version": 4

@@ -1,6 +1,7 @@
 ## Trinket Analog Handbrake
 
 ### Features
+- Using PlatformIO with vscode
 - Created a TrinketJoystick lib based on the Adafruit HID Combo lib, it uses bit-bang USB technique
 - Joystick logic is based on the ArduinoJoystickLibrary created by Matthew Heironimus [https://github.com/MHeironimus/ArduinoJoystickLibrary](https://github.com/MHeironimus/ArduinoJoystickLibrary)
 - Throttling info is working fine, receiving data from 10K potentiometer using 10 bit ADC
