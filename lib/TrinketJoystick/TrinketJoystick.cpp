@@ -137,8 +137,31 @@ void Trinket_Joystick::setThrottle(uint8_t value)
 	/* 	throttle = value;
 	sendState(); */
 
-	report_buffer[0] = REPID_THROTTLE;
+	/* 	report_buffer[0] = REPID_THROTTLE;
+	// 1 Byte Buttons 8
+	//report_buffer[1] = 0x00;
+	// 1 byte Throttle
 	report_buffer[1] = value;
+	// 1 byte steering
+	report_buffer[2] = 0x00;
+	// 1 byte Two Hat switches (8 Positions)
+	report_buffer[3] = 0x00; */
+
+	report_buffer[0] = REPID_THROTTLE;
+
+	// Split 16 bit button-state into 2 bytes
+	uint16_t buttonTmp = buttons;
+	report_buffer[1] = buttonTmp & 0xFF;
+	buttonTmp >>= 8;
+	report_buffer[2] = buttonTmp & 0xFF;
+
+	// 1 byte Throttle
+	report_buffer[3] = value;
+	// 1 byte steering
+	report_buffer[4] = 0x00;
+
+	// 1 byte Two Hat switches (8 Positions)
+	report_buffer[5] = 0x00;
 
 	usbReportSend(REPSIZE_THROTTLE);
 }

@@ -41,7 +41,7 @@ extern "C"
 #define REPSIZE_SYSCTRLKEY 2
 
 #define REPID_THROTTLE 9
-#define REPSIZE_THROTTLE 2
+#define REPSIZE_THROTTLE 6
 
     extern char usb_hasCommed;
     extern uint8_t report_buffer[DATA_SIZE];

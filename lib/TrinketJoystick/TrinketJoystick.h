@@ -42,7 +42,7 @@ private:
 	int16_t xAxisRotation;
 	int16_t yAxisRotation;
 	int16_t zAxisRotation;
-	uint32_t buttons;
+	uint16_t buttons;
 	uint8_t throttle;
 	uint8_t rudder;
 	int16_t hatSwitch[2];

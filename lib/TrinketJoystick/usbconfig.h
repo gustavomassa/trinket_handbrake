@@ -298,7 +298,7 @@ extern void calibrateOscillator(void);
  * protocol.
  */
 //#define USB_CFG_HID_REPORT_DESCRIPTOR_LENGTH 173
-#define USB_CFG_HID_REPORT_DESCRIPTOR_LENGTH 200
+#define USB_CFG_HID_REPORT_DESCRIPTOR_LENGTH 89
 /* Define this to the length of the HID report descriptor, if you implement
  * an HID device. Otherwise don't define it or define it to 0.
  * If you use this define, you must add a PROGMEM character array named
